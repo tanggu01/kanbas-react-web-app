@@ -1,6 +1,5 @@
 import React from 'react';
 
-<a href="labs/a1/index.html"> Assignment 1 </a>
 // import ReactDOM from 'react-dom/client';
 // import './index.css';
 // import App from './App';
