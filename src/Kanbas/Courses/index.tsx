@@ -9,7 +9,7 @@ import Assignments from "./Assignments";
 const colorRed = {color: "red"};
 const colorBlack = {color: "black"};
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
     const {courseId} = useParams();
     const course = courses.find((course) => course._id === courseId);
     const {pathname} = useLocation();
